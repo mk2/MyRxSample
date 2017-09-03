@@ -1,10 +1,10 @@
-package mk2.red.myrxsample
+package mk2.red.myrxsample.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import mk2.red.myrxsample.activity.SimpleActivity
+import mk2.red.myrxsample.R
 
 class MainActivity : AppCompatActivity() {
 

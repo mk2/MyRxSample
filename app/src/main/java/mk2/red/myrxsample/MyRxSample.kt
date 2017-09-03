@@ -2,11 +2,13 @@ package mk2.red.myrxsample
 
 import android.app.Application
 import android.util.Log
+import io.realm.Realm
 
 class MyRxSample : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        Realm.init(applicationContext)
     }
 }
 
